@@ -22,7 +22,7 @@ zokou({ nomCom: "repo", catégorie:"Général", reaction: "⚙️", nomFichier: 
       const lastUpdateDate = new Date(data.updated_at).toLocaleDateString('en-GB');
 
       const gitdata = `*hellow whatsaap user
-this is* *YESSER_MD .*\n support our channel *by*,  https://whatsapp.com/channel/0029VaiMm7d4yltT51HS1T1G
+this is* *YESSER_MD .*\n support our channel *by*, https://whatsapp.com/channel/0029VakA1mu35fM18opH1s30
 
 ╭─────────────────────➳
 │╭────────────────────➳
