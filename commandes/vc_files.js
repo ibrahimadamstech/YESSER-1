@@ -17,20 +17,7 @@ const runtime = function (seconds) {
  } 
 
 
-zokou({ nomCom: 'vcf',
-    desc: 'To check runtime',
-    Categorie: 'General',
-    reaction: '📄', 
-    fromMe: 'true', 
 
-
-  },
-  async (dest, zk, commandeOptions) => {
-    const { ms, arg, repondre } = commandeOptions;
-
-                 await repondre(`*_sorry just use 👉 vcf10 to get all contact_*`) 
-
-   
 
 
   }
@@ -61,7 +48,7 @@ zokou({ nomCom: 'getallmembers',
 zokou({ nomCom: 'channel',
     desc: 'To check runtime',
     Categorie: 'My Contact',
-    reaction: '🐞', 
+    reaction: '🤠', 
     fromMe: 'true', 
 
 
@@ -69,7 +56,7 @@ zokou({ nomCom: 'channel',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`Support Here My Owner By Follow This Channel Please :https://whatsapp.com/channel/0029VaiMm7d4yltT51HS1T1G`) 
+                 await repondre(`Support Here My Owner By Follow This Channel Please :https://whatsapp.com/channel/0029VakA1mu35fM18opH1s30`) 
 
    
 
@@ -81,7 +68,7 @@ zokou({ nomCom: 'channel',
 zokou({ nomCom: 'group1',
     desc: 'To check runtime',
     Categorie: 'My Contact',
-    reaction: '🤭', 
+    reaction: '🌚', 
     fromMe: 'true', 
 
 
@@ -89,7 +76,7 @@ zokou({ nomCom: 'group1',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`*Tap Here To Join BONIPHACE MD Chatroom* https://chat.whatsapp.com/KrseXOOYu2nKOkht0qonhY`) 
+                 await repondre(`*Tap Here To Join YESSER MD Chatroom* https://chat.whatsapp.com/DFmm1OBboewBk9kEDBrfNv`) 
 
    
 
@@ -109,7 +96,7 @@ zokou({ nomCom: 'update',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`*_Boniphace md is running on its latest vision_*`) 
+                 await repondre(`*_YESSER MD is running on its latest vision_*`) 
 
    
 
@@ -129,7 +116,7 @@ zokou({ nomCom: 'vision',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`*_Boniphace md_*`) 
+                 await repondre(`*_𝐘𝐄𝐒𝐒𝐄𝐑 𝐌𝐃𒊹︎︎︎_*`) 
 
    
 
@@ -197,38 +184,5 @@ zokou({ nomCom: 'hack2',
 )
 
 
-
-
-zokou({ nomCom: 'problem',
-    desc: 'To check runtime',
-    Categorie: 'General',
-    reaction: '🔎', 
-    fromMe: 'true', 
-
-
-  },
-  async (dest, zk, commandeOptions) => {
-    const { ms, arg, repondre } = commandeOptions;
-
-                 await repondre(`*_┏━━━━━━━━━━━━━━
-┃BONIPHACE-MD 🎉🎉🎉 
-| NEVER 
-┃DIE🔥
-┗━━━━━━━━━━━━━━━
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❶ || Creator = 𖥘 BONIPHACE TECH 𖥘
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❷ || WhattsApp Channel = https://whatsapp.com/channel/0029VaiMm7d4yltT51HS1T1G
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-Please Follow My Support Channel
-Wanna talk to me?👉 https://t.me/boniphaceTech 👈
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-©*2024-2099 BONIPHACE TECH_*`) 
-
-   
-
-
-  }
-);
 
 
