@@ -61,7 +61,7 @@ zokou({ nomCom: 'getallmembers',
 zokou({ nomCom: 'channel',
     desc: 'To check runtime',
     Categorie: 'My Contact',
-    reaction: '🐞', 
+    reaction: '🤠', 
     fromMe: 'true', 
 
 
@@ -69,7 +69,7 @@ zokou({ nomCom: 'channel',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`https://whatsapp.com/channel/0029VaiMm7d4yltT51HS1T1G`) 
+                 await repondre(`https://whatsapp.com/channel/0029VakA1mu35fM18opH1s30`) 
 
    
 
@@ -78,10 +78,10 @@ zokou({ nomCom: 'channel',
 );
 
 
-zokou({ nomCom: 'yessertgc',
+zokou({ nomCom: 'cheka',
     desc: 'To check runtime',
     Categorie: 'My Contact',
-    reaction: '🤓', 
+    reaction: '😂', 
     fromMe: 'true', 
 
 
@@ -129,7 +129,7 @@ zokou({ nomCom: 'vision',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`*_YESSER MD_*`) 
+                 await repondre(`*_🅈🄴🅂🅂🄴🅁🅼︎🅳︎ _*`) 
 
    
 
@@ -139,10 +139,10 @@ zokou({ nomCom: 'vision',
 
 
   
-zokou({ nomCom: 'yesserwagc',
+zokou({ nomCom: 'group1',
     desc: 'To check runtime',
     Categorie: 'My Contact',
-    reaction: '♻️', 
+    reaction: '👨‍👨‍👧‍👧', 
     fromMe: 'true', 
 
 
@@ -150,7 +150,7 @@ zokou({ nomCom: 'yesserwagc',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`*Tap To Join BONIPHACE Md WhatsApp Chartroom Group* https://chat.whatsapp.com/KrseXOOYu2nKOkht0qonhY`) 
+                 await repondre(`*Tap To Join YESSERTECH SUPPORT WhatsApp Chartroom Group* https://chat.whatsapp.com/DFmm1OBboewBk9kEDBrfNv`) 
 
    
 
@@ -162,7 +162,7 @@ zokou({ nomCom: 'yesserwagc',
 zokou({ nomCom: 'hack2',
     desc: 'To check runtime',
     Categorie: 'My Contact',
-    reaction: '🐅', 
+    reaction: '💀', 
     fromMe: 'true', 
 
 
@@ -188,8 +188,7 @@ zokou({ nomCom: 'hack2',
     "SENDING LOG DOCUMENTS...",
     "SUCCESSFULLY SENT DATA AND Connection disconnected",
     "BACKLOGS CLEARED",
-    "POWERED BY YESSER MD",
-    "By yesser Tech`) 
+    "POWERED BY yessertech",) 
 
    
 
