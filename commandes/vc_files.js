@@ -58,7 +58,7 @@ zokou({ nomCom: 'getallmembers',
 
 
 
-zokou({ nomCom: 'channel',
+zokou({ nomCom: 'yesser2',
     desc: 'To check runtime',
     Categorie: 'My Contact',
     reaction: '🤠', 
@@ -139,7 +139,7 @@ zokou({ nomCom: 'vision',
 
 
   
-zokou({ nomCom: 'group1',
+zokou({ nomCom: 'yesser1',
     desc: 'To check runtime',
     Categorie: 'My Contact',
     reaction: '👨‍👨‍👧‍👧', 
