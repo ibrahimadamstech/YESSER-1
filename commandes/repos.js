@@ -2,9 +2,9 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const { zokou } = require("../framework/zokou");
 
-zokou({ nomCom: "repo", catégorie:"Général", reaction: "⚙️", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "repo", catégorie:"Général", reaction: "🌚", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
   const githubRepo = 'https://api.github.com/repos/yassin994/YESSER-MD';
-  const img = 'https://telegra.ph/file/37882de26f9ffc60043ef.jpg';
+  const img = 'https://files.catbox.moe/9it5tk.jpeg';
 
   try {
     const response = await fetch(githubRepo);
@@ -31,16 +31,15 @@ this is* *YESSER_MD .*\n support our channel *by*, https://whatsapp.com/channel/
 ││ 🧧 *FORKS:* ${repoInfo.forks}
 ││ 📅 *RELEASE DATE:* ${releaseDate}
 ││🕐 *UPDATE ON:* ${repoInfo.lastUpdate}
-││ 👨‍💻 *OWNER:* *YESSER tech*
-││ 💞 *THEME:* *YESSER *
+││ 👨‍💻 *OWNER:* *YESSERTECH*
+││ 💞 *THEME:* *𝑓𝑟𝑎𝑠ℎ 𝑘𝑖𝑛𝑔 *
 ││ 🥰 *ENJOY TO USE YESSER MD *
 │╰────────────────────➳
 │╭──────────────────❍ 
 ││  ╭───────────────➳
-││  │ _*Made With yesser Tech*_
+││  │ ➪  MADE BY YESSER
 ││  ╰───────────────➳
 │╰──────────────────❍ 
-..........new vision🖐️🤠
 ╰─────────────────────➳ 
  ❍━━━━━━━━━━━━━━━━━━❍`;
 
