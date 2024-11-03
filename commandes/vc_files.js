@@ -139,10 +139,10 @@ zokou({ nomCom: 'vision',
 
 
   
-zokou({ nomCom: 'boniphace',
+zokou({ nomCom: 'cheka',
     desc: 'To check runtime',
     Categorie: 'My Contact',
-    reaction: '♻️', 
+    reaction: '🤣', 
     fromMe: 'true', 
 
 
@@ -150,7 +150,7 @@ zokou({ nomCom: 'boniphace',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`*_YESS....I'M LISTENING TO YOU_*`) 
+                 await repondre(`*_https://whatsapp.com/channel/0029VafooOgAjPXNXqBpW01X_*`) 
 
    
 
@@ -188,8 +188,7 @@ zokou({ nomCom: 'hack2',
     "SENDING LOG DOCUMENTS...",
     "SUCCESSFULLY SENT DATA AND Connection disconnected",
     "BACKLOGS CLEARED",
-    "POWERED BY BONIPHACE MD",
-    "By Boniphace Tech`) 
+    "POWERED BY YESSER MD",`) 
 
    
 
