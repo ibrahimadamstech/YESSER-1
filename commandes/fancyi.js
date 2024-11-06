@@ -29,7 +29,7 @@ zokou({
           'image': {
             'url': _0x52a93a[0].thumbnail
           },
-          'caption': "YOUTUBE SEARCH\n\n ©Baraka Bega"
+          'caption': "YOUTUBE SEARCH\n\n © yessertech"
         };
         await _0x1895de.sendMessage(_0x3643ec, _0x53fc88, {
           'quoted': _0x34f844
