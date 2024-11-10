@@ -36,7 +36,7 @@ async function uploadToTelegraph(Path) {
 
 
 
-zokou({nomCom:"s",categorie: "Conversion", reaction: "🤳"},async(origineMessage,zk,commandeOptions)=>{
+zokou({nomCom:"s",categorie: "Conversion", reaction: "🌛"},async(origineMessage,zk,commandeOptions)=>{
 
 let {ms,mtype,arg,repondre,nomAuteurMessage}=commandeOptions
   var txt=JSON.stringify(ms.message)
@@ -94,7 +94,7 @@ const alea = (ext) => {
     }
 
     sticker = new Sticker(buffer, {
-      pack:"Baraka-MD", // pack stick
+      pack:"yessertech", // pack stick
       author:  nomAuteurMessage, // name of the author of the stick
       type:
         arg.includes("-r") || arg.includes("-c")
@@ -127,7 +127,7 @@ try{
   
 });
 
-zokou({nomCom:"croppic",categorie: "Conversion", reaction: "🤳"},async(origineMessage,zk,commandeOptions)=>{
+zokou({nomCom:"croppic",categorie: "Conversion", reaction: "🌚"},async(origineMessage,zk,commandeOptions)=>{
    const {ms , msgRepondu,arg,repondre,nomAuteurMessage} = commandeOptions ;
 
   if(!msgRepondu) { repondre( 'make sure to mention the media' ) ; return } ;
@@ -163,7 +163,7 @@ mediamsg = msgRepondu.videoMessage
 
 });
 
-zokou({nomCom:"getsticker",categorie: "Conversion", reaction: "🤳"},async(origineMessage,zk,commandeOptions)=>{
+zokou({nomCom:"getsticker",categorie: "Conversion", reaction: "😿"},async(origineMessage,zk,commandeOptions)=>{
    const {ms , msgRepondu,arg,repondre,nomAuteurMessage} = commandeOptions ;
 
   if(!msgRepondu) { repondre( 'make sure to mention the media' ) ; return } ;
@@ -201,7 +201,7 @@ mediamsg = msgRepondu.videoMessage
 
 
 
-zokou({ nomCom: "words", categorie: "Conversion", reaction: "🤳" }, async (origineMessage, zk, commandeOptions) => {
+zokou({ nomCom: "words", categorie: "Conversion", reaction: "😂" }, async (origineMessage, zk, commandeOptions) => {
   const { ms, msgRepondu, arg, repondre, nomAuteurMessage } = commandeOptions;
 
   if (!msgRepondu) {
@@ -252,7 +252,7 @@ zokou({ nomCom: "words", categorie: "Conversion", reaction: "🤳" }, async (ori
     // Create the sticker
     const stickerMess = new Sticker(meme, {
       pack: nomAuteurMessage,
-      author: 'Baraka-MD',
+      author: 'yessertech',
       type: StickerTypes.FULL,
       categories: ["🤩", "🎉"],
       id: "12345",
@@ -275,7 +275,7 @@ zokou({ nomCom: "words", categorie: "Conversion", reaction: "🤳" }, async (ori
 
 
 
-zokou({nomCom:"picture",categorie: "Conversion", reaction: "🤳"},async(dest,zk,commandeOptions)=>{
+zokou({nomCom:"picture",categorie: "Conversion", reaction: "💀"},async(dest,zk,commandeOptions)=>{
    const {ms , msgRepondu,arg,repondre,nomAuteurMessage} = commandeOptions ;
 
   if(!msgRepondu) { repondre( 'make sure to mention the media' ) ; return } ;
@@ -314,7 +314,7 @@ zokou({nomCom:"picture",categorie: "Conversion", reaction: "🤳"},async(dest,zk
         });
 });
 
-zokou({ nomCom: "trt", categorie: "Conversion", reaction: "🤳" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "trt", categorie: "Conversion", reaction: "🤔" }, async (dest, zk, commandeOptions) => {
 
   const { msgRepondu, repondre , arg } = commandeOptions;
 
