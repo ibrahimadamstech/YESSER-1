@@ -2,7 +2,7 @@
   "name":"YESSER-MD",
   "description":"Best whatsapp bot created by YESSERTECH",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://i.imgur.com/0V5xT4v.jpeg",
+  "logo":"https://files.catbox.moe/8lzwqh.jpeg",
   "repository":"https://github.com/yassin994/YESSER-1",
   "succes_url":"/",
   "stack":"container",
@@ -60,7 +60,7 @@
      "BOT_MENU_LINKS" : {
     
       "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://i.imgur.com/0V5xT4v.jpig",
+      "value":"https://files.catbox.moe/8lzwqh.jpeg,https://files.catbox.moe/5thusr.jpeg,https://files.catbox.moe/eou4n8.jpe",
       "required":false
        
      },
@@ -92,7 +92,7 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "Mr baraka"
+    "value": "YESSERTECH"
   },
     "NUMERO_OWNER":
   {
