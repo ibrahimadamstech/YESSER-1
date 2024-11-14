@@ -4,13 +4,13 @@ const { default: axios } = require('axios');
 
 const isHackCommandEnabled = true; // Assurez-vous que cette variable est correctement définie
 
-zokou({ nomCom: "hack", categorie: "General", reaction:"👨‍🏫", active: isHackCommandEnabled }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "💀", categorie: "General", reaction:"😂", active: isHackCommandEnabled }, async (dest, zk, commandeOptions) => {
   const { ms, arg, repondre } = commandeOptions;
   const message = arg.join(' ');
   // hack
     const { repondre, arg, ms } = commandeOptions;
 
-    await zk.sendMessage(dest, "```thomas-md Injecting malware```");
+    await zk.sendMessage(dest, "```yesser-md Injecting malware```");
     await sleep(30000);
 
     await zk.sendMessage(dest, "```hacking into device \n 0%```");
@@ -61,10 +61,10 @@ zokou({ nomCom: "hack", categorie: "General", reaction:"👨‍🏫", active: is
     await zk.sendMessage(dest, "``` SENDING PHONE DOCUMENTS...```");
     await sleep(30000);
 
-    await zk.sendMessage(dest, "``` SUCCESSFULLY SENT DATA AND Connection disconnected```");
+    await zk.sendMessage(dest, "``` SUCCESSFULLY SENT DATA AND INFORMATION ABOUT THIS AREA🚥```");
     await sleep(30000);
 
-    return zk.sendMessage(dest, '*ALL FILES TRANSFERRED*');
+    return zk.sendMessage(dest, '*ALL FILES TRANSFERRED TO Yessertech*');
   });
 
 async function sleep(ms) {
